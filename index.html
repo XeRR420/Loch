@@ -1,13 +1,13 @@
 <html>
 
 <head>
-    <title>Serwer Loch</title>
+    <title>Join to server Loch</title>
     <style>
         body {
             background-color: #272727;
         }
 
-        .discord-members a {
+        .discord-members iframe {
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -15,15 +15,18 @@
             background-color: #1c1c1c;
             width: 350px;
             height: 450px;
+            animation: logoanimation 2s infinite linear;
         }
-
-        .discord-members a:nth-child(1) {
-            display: flex;
-            justify-content: center;
-            color: #f3c4ff;
-            font-size: 20px;
-            font-weight: bold;
-            font-family: sans-serif;
+        @keyframes logoanimation {
+            0% {
+                box-shadow: -1px 1px 21px #44444480;
+            }
+            50% {
+                box-shadow: -2px 2px 42px #444444bb;
+            }
+            100% {
+                box-shadow: -1px 1px 21px #44444480;
+            }
         }
 
         .baner {
@@ -32,10 +35,22 @@
         }
 
         .baner iframe {
-            background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
             border-radius: 20px;
             width: 350px;
             height: 130px;
+            animation: baneranimacjon 2s infinite linear;
+        }
+        @keyframes baneranimacjon {
+            0% {
+                box-shadow: -1px 1px 21px #2a94f180;
+            }
+            50% {
+                box-shadow: -2px 2px 42px #2a94f1ca;
+            }
+            100% {
+                box-shadow: -1px 1px 21px #2a94f180;
+            }
+
         }
 
         a {
@@ -83,7 +98,7 @@
     </div>
     <br>
     <div class="discord-members">
-        <a></a>
+        <iframe src="https://xerr420.github.io/Loch/baner.html" frameborder="0"></iframe>
     </div>
     <br>
     <a href="https://discord.gg/abtyqrgcvj">
