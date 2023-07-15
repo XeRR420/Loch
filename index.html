@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Loch</title>
+    <style>
+        body {
+            background-color: #272727;
+        }
+
+        .discord-members a {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            background-color: #1c1c1c;
+            width: 350px;
+            height: 450px;
+        }
+
+        .discord-members a:nth-child(1) {
+            display: flex;
+            justify-content: center;
+            color: #f3c4ff;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+        .baner {
+            display: flex;
+            justify-content: center;
+        }
+
+        .baner iframe {
+            background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+            border-radius: 20px;
+            width: 350px;
+            height: 130px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            background-color: #9c00c8;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 25px;
+            border: none;
+            cursor: pointer;
+            width: 10%;
+            border-radius: 20px;
+            font-family: sans-serif;
+            color: #f3c4ff;
+            box-shadow: -2px 2px 21px #9d00c87d;
+            font-size: 1em;
+            animation: animate 2s infinite linear;
+        }
+
+        @keyframes animate {
+            10% {
+                background-color: #9c00c8;
+                box-shadow: -2px 2px 21px #9d00c87d;
+            }
+            50% {
+                background-color: #d53ffe;
+                box-shadow: -2px 2px 21px #d53ffe7d;
+            }
+            100% {
+                background-color: #9c00c8;
+                box-shadow: -2px 2px 21px #9d00c87d;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <div class="baner">
+        <iframe frameborder="0"></iframe>
+    </div>
+    <br>
+    <div class="discord-members">
+        <a></a>
+    </div>
+    <br>
+    <a href="https://discord.gg/abtyqrgcvj">
+        <button>Join!</button>
+    </a>
+</body>
+
+</html>
